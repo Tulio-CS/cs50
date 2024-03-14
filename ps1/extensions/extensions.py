@@ -18,5 +18,6 @@ def main():
     else:
         return "application/octet-stream"
 
-print(main())
+if __name__ == "__main__":
+    print(main())
 
